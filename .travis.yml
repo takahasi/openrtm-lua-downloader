@@ -1,0 +1,10 @@
+sudo: required
+
+addons:
+  apt:
+    packages:
+      - lua5.2
+      - luarocks
+
+script:
+  - ./install.sh
